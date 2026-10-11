@@ -1,0 +1,19 @@
+{
+  "name": "fx3-bot",
+  "version": "1.0.0",
+  "description": "FX3 WhatsApp bot starter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js && node --check config.js && node --check lib/command.js && node --check lib/database.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "@hapi/boom": "^10.0.1",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
